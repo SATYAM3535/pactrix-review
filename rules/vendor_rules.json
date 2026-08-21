@@ -1,0 +1,11 @@
+[
+  {"id":"UNILATERAL_CHANGE","severity":"red","description":"One party may alter terms without equivalent consent."},
+  {"id":"AUTO_RENEWAL","severity":"amber","description":"Automatic renewal requires an explicit opt-out review."},
+  {"id":"PENALTY_UNCLEAR","severity":"amber","description":"Penalty exposure is missing or unclear."},
+  {"id":"DISPUTE_PATH_MISSING","severity":"amber","description":"Jurisdiction and arbitration path are missing."}
+  ,{"id":"PAYMENT_TERMS_MISSING","severity":"red","description":"Invoice timing or payment due date is unclear."}
+  ,{"id":"LIABILITY_CAP_MISSING","severity":"red","description":"No liability cap was reliably identified."}
+  ,{"id":"IP_OWNERSHIP_UNCLEAR","severity":"amber","description":"Ownership of deliverables and background IP is unclear."}
+  ,{"id":"CONFIDENTIALITY_MISSING","severity":"amber","description":"Confidentiality obligations are absent or unclear."}
+  ,{"id":"DATA_HANDLING_MISSING","severity":"amber","description":"Data-use and security duties are absent or unclear."}
+]

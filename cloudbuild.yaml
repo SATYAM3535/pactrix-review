@@ -1,0 +1,10 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ["build", "-t", "${_IMAGE}", "."]
+  - name: gcr.io/cloud-builders/docker
+    args: ["push", "${_IMAGE}"]
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args: ["run", "deploy", "pactrix-review", "--image", "${_IMAGE}", "--region", "asia-south1", "--platform", "managed", "--allow-unauthenticated"]
+substitutions:
+  _IMAGE: asia-south1-docker.pkg.dev/$PROJECT_ID/pactrix/pactrix-review:$COMMIT_SHA

@@ -1,0 +1,7 @@
+[
+  {"id":"TERM_NOTICE_MISSING","severity":"red","description":"Termination notice period is absent or unclear."},
+  {"id":"AUTO_RENEWAL","severity":"amber","description":"Automatic renewal requires an explicit opt-out review."},
+  {"id":"PENALTY_UNCLEAR","severity":"amber","description":"Penalty exposure is missing or unclear."},
+  {"id":"DISPUTE_PATH_MISSING","severity":"amber","description":"Jurisdiction and arbitration path are missing."}
+]
+

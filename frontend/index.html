@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pactrix Review — Understand the deal before you sign</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark">PX</span><span>PACTRIX <small>REVIEW</small></span></div>
+    <div class="prototype">PRIVATE MVP · SYNTHETIC DOCUMENTS ONLY</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">THE FIRST PRODUCT FROM PACTRIX LABS</p>
+      <h1>Understand the deal<br><span>before you sign it.</span></h1>
+      <p class="sub">Pactrix Review turns an agreement into a traceable brief: key terms, review items, exact-clause evidence and practical next actions.</p>
+    </section>
+
+    <section class="workspace">
+      <form id="upload-form" class="upload-card">
+        <label id="drop-zone" for="file-input">
+          <div class="upload-icon">↑</div>
+          <strong>Upload an agreement</strong>
+          <span>PDF, PNG, JPEG or TXT · max 10 MB</span>
+          <span class="privacy">Use synthetic or non-confidential documents only</span>
+        </label>
+        <input id="file-input" name="file" type="file" accept=".pdf,.png,.jpg,.jpeg,.txt" required>
+        <div id="selected-file" class="selected-file">No document selected</div>
+        <button id="analyze-button" type="submit">Create review brief</button>
+        <div class="sample-panel">
+          <span>QUICK DEMO</span>
+          <button class="sample-button" type="button" data-sample="pactrix_synthetic_vendor_agreement.pdf">Full vendor agreement · live-ready</button>
+          <button class="sample-button" type="button" data-sample="bilingual_vendor.pdf">Bilingual vendor · risks</button>
+          <button class="sample-button" type="button" data-sample="hindi_scan.pdf">Hindi scan · human review</button>
+          <button class="sample-button" type="button" data-sample="english_agreement.pdf">English agreement · ready</button>
+        </div>
+        <p class="demo-note">All three samples are synthetic. No customer or confidential data is used.</p>
+      </form>
+
+      <section id="empty-state" class="empty-state">
+        <div class="empty-ring"></div>
+        <h2>Evidence before answers.</h2>
+        <p>Pactrix Core withholds the review when material fields cannot be extracted reliably.</p>
+      </section>
+
+      <section id="results" class="results hidden" aria-live="polite">
+        <div class="score-card">
+          <div>
+            <p class="eyebrow">REVIEW COVERAGE</p>
+            <div id="score" class="score">—</div>
+            <div id="status" class="status"></div>
+          </div>
+          <div id="breakdown" class="breakdown"></div>
+        </div>
+        <div class="brief">
+          <article>
+            <p class="eyebrow">DECISION BRIEF</p>
+            <p id="summary" class="summary"></p>
+          </article>
+          <article>
+            <p class="eyebrow">NEXT ACTIONS</p>
+            <ol id="actions" class="actions"></ol>
+          </article>
+        </div>
+        <div class="result-grid">
+          <article>
+            <h2>Risk findings</h2>
+            <div id="findings"></div>
+          </article>
+          <article>
+            <h2>Extracted evidence</h2>
+            <div id="evidence"></div>
+          </article>
+        </div>
+        <div id="meta" class="meta"></div>
+        <p id="disclaimer" class="disclaimer"></p>
+      </section>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

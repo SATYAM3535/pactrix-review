@@ -1,0 +1,23 @@
+{
+  "document_type": "string",
+  "language": "string",
+  "parties": {"value": ["string"], "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "effective_date": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "expiry_date": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "financial_obligations": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "payment_terms": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "service_obligations": {"value": "string|array|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "termination_notice": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "renewal_terms": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "jurisdiction": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "arbitration": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "unilateral_modification": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "penalties": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "confidentiality": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "intellectual_property": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "data_handling": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "indemnity": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "liability_cap": {"value": "string|null", "confidence": 0.0, "evidence": {"quote": "string", "page": 1}},
+  "missing_information": ["string"],
+  "extraction_confidence": 0.0
+}

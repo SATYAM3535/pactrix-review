@@ -1,0 +1,9 @@
+{
+  "english_agreement.pdf": {"status": "review_ready", "minimum_coverage": 75},
+  "hindi_scan.pdf": {"status": "human_review_required", "score": null},
+  "bilingual_vendor.pdf": {
+    "status": "review_ready",
+    "expected_rules": ["UNILATERAL_CHANGE", "AUTO_RENEWAL"],
+    "expected_fields": ["payment_terms", "service_obligations", "confidentiality", "intellectual_property", "data_handling", "indemnity", "liability_cap"]
+  }
+}
