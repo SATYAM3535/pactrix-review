@@ -32,6 +32,7 @@ def home():
 
 
 @app.get("/health")
+@app.get("/api/health")
 def health():
     return {"status": "ok", "mode": "gemini" if os.getenv("USE_GEMINI", "false").lower() == "true" else "demo"}
 
